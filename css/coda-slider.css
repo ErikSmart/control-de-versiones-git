@@ -1,0 +1,144 @@
+#slider {
+	position: relative;
+	width: auto;
+	height: auto;
+}
+
+#templatemo_wrapper {
+
+
+}
+
+#header {
+	width: 960px;
+	height: 50px;
+	background: url(../images/templatemo_header.png) no-repeat
+}
+
+#header h1 { margin: 0; padding: 0 }
+
+#header h1 a { 
+	display: block; 
+	float: left; 
+	margin: 20px 0 0 140px; 
+	width: 320px; 
+	font-size: 30px; 
+	font-family: Georgia, "Times New Roman", Times, serif; 
+	color: #600;
+	text-decoration: none;
+}
+
+#header h1 a span { display: block; font-size: 15px; color: #000; }
+
+#menu {
+	width: auto;
+	height: 90px;
+	background-color: #6C899E;
+	background-image: url(../images/templatemo_menu.png);
+	background-repeat: no-repeat;
+	padding-right: 90px;
+	padding-bottom: 15px;
+	padding-left: 290px;
+}
+
+
+#content {
+	clear: both;
+	width: 700px;
+	height: 510px;
+	background: url(../images/templatemo_body.png) no-repeat;
+	padding-top: 80px;
+	padding-right: 130px;
+	padding-bottom: 52px;
+	padding-left: 150px;
+}
+
+#footer {
+	width: auto;
+	color: #c4af9e;
+	text-align: center;
+	background-color: #6C899E;
+	padding-top: 20px;
+	padding-right: 130px;
+	padding-bottom: 40px;
+	padding-left: 130px;
+}
+
+#footer a {
+	color: #c4af9e;
+}
+
+#footer a:hover {
+	color: #ec800b;
+}
+
+.scroll {
+	height: 510px;
+	width: 900px;
+	overflow: auto;
+	overflow-x: hidden;
+	position: relative;
+	clear: left;
+}
+
+.scrollContainer div.panel {
+	height: 510px;
+	width: 900px;
+	padding: 0;
+	overflow: hidden;
+}
+
+ul.navigation {
+	width: auto;
+	height: 40px;
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+}
+
+ul.navigation li {
+	display: inline;
+	margin: 50;
+}
+
+ul.navigation a {
+	float: left;
+	display: block;
+	width: 100px;
+	height: 30px;
+	padding: 10px 0 0 0;
+	margin-right: 1px;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+}
+
+ul.navigation a:hover, ul.navigation a.selected {
+	color: #FFF;
+	text-shadow: 1px 1px 1px #FFFFFF;
+	background-repeat: repeat-x;
+}
+
+ul.navigation a:focus {
+	outline: none;
+}
+
+.scrollButtons {
+    position: absolute;
+    top: 300px;
+    cursor: pointer;
+}
+
+.scrollButtons.left {
+    left: -50px;
+}
+
+.scrollButtons.right {
+    right: -50px;
+}
+
+.hide {
+    display: none;
+}
